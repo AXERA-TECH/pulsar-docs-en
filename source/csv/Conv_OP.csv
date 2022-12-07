@@ -1,0 +1,9 @@
+﻿Support Properties, Performance Description, Remarks
+kernel_shape, "If kernel_shape is 3, 100% performance can be achieved", other values are less than 50% efficiency
+kernel_shape, "with kernel_shape of 1, performance drops to 89%, which requires input_channel % 32 == 0",
+pads, the most efficient when kernel_shape is 3 and pads is 1,/
+strides, "stride_h = 1, stride_w <= 2, performance is 100%", "stride = [2, 2] with efficiency about: output_channel / (output_channel + 8)"
+, "In other cases, the larger the output_channel, the more efficient it is", "When kernel_shape is 3, avoid strdies of 3"
+auto_pad,/, only support configuration as NOTSET
+dilations, the efficiency is calculated as: kernel_shape / ((kernel_shape - 1) * dilation + 1), which wastes the amount of computation needed to fill the dilation
+group, "channel/group is most efficient when it is a multiple of 16, but input_width must be a multiple of 32", for example: depthwise conv efficiency 1/16
