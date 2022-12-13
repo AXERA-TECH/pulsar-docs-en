@@ -1,6 +1,6 @@
 # Pulsar User Manual
 
-[Web Preview](https://pulsar-docs.readthedocs.io/zh_CN/latest/index.html#)
+[Web Preview](https://pulsar-docs.readthedocs.io/en/latest/index.html#)
 
 ## 1. Project Background
 
