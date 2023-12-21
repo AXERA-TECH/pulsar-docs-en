@@ -49,10 +49,10 @@ If the above is displayed, it means ``Docker`` has been installed successfully. 
 Installing the Pulsar toolchain
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The installation of the ``Pulsar`` toolchain is illustrated with the system version ``Ubuntu 18.04`` and the toolchain ``axera_neuwizard_v0.6.1.14.tar.gz``.
+The installation of the ``Pulsar`` toolchain is illustrated with the system version ``Ubuntu 18.04`` and the toolchain ``axera_neuwizard_v0.6.1.44.tar.gz``.
 Toolchain access.
 
-- `Obtain <https://wiki.sipeed.com/ai/zh/deploy/ax-pi.html#%E4%B8%8B%E8%BD%BD%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7>`_ from the AXera-Pi developer community.
+- `Obtain <https://pan.baidu.com/s/1GLixCHF_H8NsLUfMtSwDMQ?pwd=phva>`_ from the AXera-Pi developer community.
 - Released by AXera technical support after signing an NDA with them through the corporate channel.
 
 ^^^^^^^^^^^^^^^^^^^^^^^
